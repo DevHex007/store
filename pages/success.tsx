@@ -54,12 +54,12 @@ import {
         <header className="mx-auto max-w-xl">
           <Link href="/">
             <div className="relative ml-4 h-16 w-8 cursor-pointer transition lg:hidden">
-              <Image
+                {/* <Image
                 src="https://rb.gy/vsvv2o"
                 width={50}
                 height={50} 
                 alt="apple"
-              />
+              /> */}
             </div>
           </Link>
         </header>
@@ -68,12 +68,12 @@ import {
           <section className="order-2 mx-auto max-w-xl pb-12 lg:col-span-5 lg:mx-0 lg:max-w-none lg:pr-16 lg:pt-16 xl:pl-16 2xl:pl-44">
             <Link href="/">
               <div className="relative ml-14 hidden h-24 w-12 cursor-pointer transition lg:inline-flex">
-                <Image
-                  src="https://rb.gy/vsvv2o"
-                  width={50}
-                  height={50} 
-                  alt="apple"
-                />
+                {/* <Image
+                src="https://rb.gy/vsvv2o"
+                width={50}
+                height={50} 
+                alt="apple"
+              /> */}
               </div>
             </Link>
   
@@ -164,12 +164,12 @@ import {
                       >
                         <div className="relative flex h-16 w-16 items-center justify-center rounded-md border border-gray-300 bg-[#F1F1F1] text-xs text-white">
                           <div className="relative h-7 w-7 animate-bounce rounded-md">
-                            <Image
-                              src="https://rb.gy/vsvv2o"
-                              width={50}
-                              height={50} 
-                              alt="apple"
-                            />
+                            {/* <Image
+                                src="https://rb.gy/vsvv2o"
+                                width={50}
+                                height={50} 
+                                alt="apple"
+                             /> */}
                           </div>
                           <div className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-[gray] text-xs">
                             {product.quantity}
